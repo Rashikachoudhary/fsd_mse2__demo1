@@ -12,7 +12,7 @@ function Dashboard(){
       return;
     }
 
-    axios.get("https://your-backend.onrender.com/api/dashboard",{
+    axios.get("https://fsd-mse2-backend.onrender.com/api/dashboard",{
       headers:{token}
     })
     .then(res=>{
