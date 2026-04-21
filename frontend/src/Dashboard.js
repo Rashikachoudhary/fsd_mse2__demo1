@@ -12,7 +12,7 @@ function Dashboard(){
       return;
     }
 
-    axios.get("http://localhost:5000/api/dashboard",{
+    axios.get("https://your-backend.onrender.com/api/dashboard",{
       headers:{token}
     })
     .then(res=>{
