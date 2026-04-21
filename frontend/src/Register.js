@@ -6,7 +6,7 @@ function Register(){
 
  const submit = async ()=>{
   try{
-    await axios.post("http://localhost:5000/api/register",form);
+    await axios.post("https://your-backend.onrender.com/api/register",form);
 
     alert("Registered Successfully");
     setForm({});
