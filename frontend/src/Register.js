@@ -6,7 +6,7 @@ function Register(){
 
  const submit = async ()=>{
   try{
-    await axios.post("https://fsd-mse2-backend.onrender.com/api/register",form);
+    await axios.post("https://fsd-backend-demo.onrender.com/api/register",form);
 
     alert("Registered Successfully");
     setForm({});

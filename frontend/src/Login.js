@@ -6,7 +6,7 @@ function Login() {
 
   const login = async () => {
     try {
-      const res = await axios.post("https://fsd-mse2-backend.onrender.com/api/login", form);
+     const res=await axios.post("https://fsd-backend-demo.onrender.com/api/login", form)
 
       localStorage.setItem("token", res.data.token);
 
